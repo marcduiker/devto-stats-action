@@ -1,8 +1,8 @@
 {
-  "name": "typescript-action",
-  "version": "0.0.0",
+  "name": "devto-stats-action",
+  "version": "0.0.1",
   "private": true,
-  "description": "TypeScript template action",
+  "description": "Action to read Dev.to stats for an organization.",
   "main": "lib/main.js",
   "scripts": {
     "build": "tsc",
@@ -15,17 +15,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/typescript-action.git"
+    "url": "git+https://github.com/marcduiker/devto-stats-action"
   },
   "keywords": [
     "actions",
     "node",
-    "setup"
+    "devto"
   ],
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.6.0"
+    "@actions/core": "^1.6.0",
+    "node-fetch": "^3.2.6"
   },
   "devDependencies": {
     "@types/node": "^16.10.5",
